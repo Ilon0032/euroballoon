@@ -1,0 +1,267 @@
+/*Generelle indstillinger*/
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+}
+
+/***Menu***/
+nav {
+    margin: 0;
+    padding: 2.5vw;
+    overflow: hidden;
+    background-color: #D3ECDD;
+    position: absolute;
+    top: 0;
+}
+
+a:hover {
+    background-color: #B4D6B8;
+}
+
+a {
+    color: white;
+    text-align: center;
+    padding: 1vw 5vw 1vw 5vw;
+    text-decoration: none;
+}
+
+/***home/forside***/
+.zoom {
+    /*    padding: 50px;*/
+    /*    background-color: green;*/
+    transition: transform .2s;
+    /*
+    width: 200px;
+    height: 20;
+*/
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.sectionwrapper_forside {
+    background-color: #D3ECDD;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.images_forside {
+    display: flex;
+    width: 80vw;
+    height: 45vw;
+    /*
+    margin-left: 11vw;
+    margin-top: 4vw;
+*/
+    flex-wrap: wrap;
+    /*    background-color: violet;*/
+    margin: 7vw 11vw 0vw 11vw;
+}
+
+.image_left {
+    width: 20vw;
+    height: 40vw;
+    flex-basis: auto;
+    flex-direction: column;
+    top: 10vw;
+    left: 10vw;
+    /*    background-color: red;*/
+    margin-left: 7vw;
+    margin-top: 2vw;
+
+
+}
+
+#forside img {
+    object-fit: cover;
+    height: 40vw;
+    width: 20vw;
+}
+
+/*
+#forside_midt img {
+    object-fit: none;
+    height: 20vw;
+    width: 20vw;
+}
+*/
+
+.image_bottom {
+    width: 20vw;
+    height: 20vw;
+    flex-basis: auto;
+    flex-direction: column;
+    top: 10vw;
+    left: 10vw;
+    /*    background-color: red;*/
+    margin: 1vw;
+    /*    background-size: contain;*/
+
+}
+
+.image_top {
+    width: 20vw;
+    height: 20vw;
+    flex-basis: auto;
+    flex-direction: column;
+    top: 10vw;
+    left: 10vw;
+    /*    background-color: red;*/
+    margin: 1vw;
+    /*    background-size: contain;*/
+
+}
+
+.image_right {
+    width: 20vw;
+    height: 40vw;
+    flex-basis: auto;
+    flex-direction: column;
+    top: 10vw;
+    right: 10vw;
+    /*    background-color: red;*/
+    margin-right: 7vw;
+    margin-top: 2vw;
+}
+
+
+/***anledninger***/
+#anledninger .sectionwrapper {
+    background-color: #D3ECDD;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/***ballontyper***/
+#ballontyper .sectionwrapper {
+    background-color: #D3ECDD;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/***galleri***/
+#galleri .sectionwrapper {
+    background-color: #D3ECDD;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/***tilbehoer***/
+#tilbehoer .sectionwrapper {
+    background-color: #D3ECDD;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/***om os***/
+#om_os .sectionwrapper {
+    background-color: #D3ECDD;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #B3D6CA;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+/*
+.sectionwrapper_forside {
+    position: relative;
+    width: 50%;
+}
+*/
+
+/*
+
+.forside_hover {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+*/
+
+.overlay {
+    position: absolute;
+    /*
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+*/
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.forside_hover:hover .overlay {
+    opacity: 0.5;
+}
+
+/*
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+*/
