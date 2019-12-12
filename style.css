@@ -163,7 +163,40 @@ a {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+}
 
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+#ballontyper .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.balloon {
+    height: 50vw;
+    width: 20vw;
+    flex-basis: auto;
+    flex-direction: column;
+    /*
+    top: 10vw;
+    left: 10vw;
+*/
+    padding: 5vw;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    display: flex;
+    /* Hide all elements by default */
 }
 
 /***galleri***/
@@ -177,7 +210,7 @@ a {
 
 }
 
-/***tilbehoer***/
+/***tilbehør***/
 #tilbehoer .sectionwrapper {
     background-color: #D3ECDD;
     width: 100vw;
@@ -223,8 +256,9 @@ footer {
 }
 */
 
-/*
 
+
+/*
 .forside_hover {
     display: block;
     width: 100%;
@@ -234,17 +268,18 @@ footer {
 
 .overlay {
     position: absolute;
+
     /*
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-*/
     height: 100%;
     width: 100%;
     opacity: 1;
     transition: .5s ease;
     background-color: #008CBA;
+*/
 }
 
 .forside_hover:hover .overlay {
@@ -264,4 +299,3 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-*/
