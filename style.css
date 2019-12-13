@@ -14,6 +14,16 @@ img {
 }
 
 /***Menu***/
+header {
+    background-color: #D3ECDD;
+}
+
+#logo {
+    width: 5vw;
+    height: 5vw;
+    background-color: #D3ECDD;
+}
+
 nav {
     margin: 0;
     padding: 5vw 1vw 5vw 1vw;
@@ -75,26 +85,20 @@ a {
 */
     flex-wrap: wrap;
     /*    background-color: violet;*/
-    margin: 11vw 11vw 0vw 11vw;
+    margin: 7vw 11vw 0vw 11vw;
 }
 
-.image_left {
-    width: 20vw;
-    height: 40vw;
-    flex-basis: auto;
-    flex-direction: column;
-    top: 10vw;
-    left: 10vw;
-    /*    background-color: red;*/
-    margin-left: 7vw;
-    margin-top: 2vw;
 
 
-}
-
-#forside img {
+.fill img {
     object-fit: cover;
     height: 40vw;
+    width: 20vw;
+}
+
+.small img {
+    object-fit: cover;
+    height: 20vw;
     width: 20vw;
 }
 
@@ -105,14 +109,25 @@ a {
     width: 20vw;
 }
 */
+.image_left {
+    width: 20vw;
+    height: 40vw;
+    flex-basis: auto;
+    flex-direction: column;
+
+    /*    background-color: red;*/
+    margin-left: 7vw;
+    margin-top: 2vw;
+
+
+}
 
 .image_bottom {
     width: 20vw;
     height: 20vw;
     flex-basis: auto;
     flex-direction: column;
-    top: 10vw;
-    left: 10vw;
+
     /*    background-color: red;*/
     margin: 1vw;
     /*    background-size: contain;*/
@@ -124,8 +139,7 @@ a {
     height: 20vw;
     flex-basis: auto;
     flex-direction: column;
-    top: 10vw;
-    left: 10vw;
+
     /*    background-color: red;*/
     margin: 1vw;
     /*    background-size: contain;*/
@@ -137,8 +151,7 @@ a {
     height: 40vw;
     flex-basis: auto;
     flex-direction: column;
-    top: 10vw;
-    right: 10vw;
+
     /*    background-color: red;*/
     margin-right: 7vw;
     margin-top: 2vw;
