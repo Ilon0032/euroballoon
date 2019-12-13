@@ -16,11 +16,12 @@ img {
 /***Menu***/
 nav {
     margin: 0;
-    padding: 2.5vw;
+    padding: 5vw 1vw 5vw 1vw;
     overflow: hidden;
     background-color: #D3ECDD;
     position: absolute;
-    top: 0;
+    top: 0vw;
+    left: 18vw
 }
 
 a:hover {
@@ -30,7 +31,7 @@ a:hover {
 a {
     color: white;
     text-align: center;
-    padding: 1vw 5vw 1vw 5vw;
+    padding: 1vw 2vw 1vw 2vw;
     text-decoration: none;
 }
 
@@ -74,7 +75,7 @@ a {
 */
     flex-wrap: wrap;
     /*    background-color: violet;*/
-    margin: 7vw 11vw 0vw 11vw;
+    margin: 11vw 11vw 0vw 11vw;
 }
 
 .image_left {
