@@ -7,5 +7,5 @@ function sidenVises() {
 
 function klikMenu() {
     console.log("klik menu");
-    document.querySelector(".nav_mobil").classList.remove("hide");
+    document.querySelector("#menu_mobil").classList.remove("hidden");
 }

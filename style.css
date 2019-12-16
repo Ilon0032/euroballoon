@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    background-color: #D3ECDD;
 }
 
 
@@ -14,36 +15,94 @@ img {
 }
 
 /***Menu***/
+
 header {
-    background-color: #D3ECDD;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
 }
 
-#logo {
-    width: 5vw;
-    height: 5vw;
-    background-color: #D3ECDD;
+img {
+    width: 100%;
 }
 
-nav {
-    margin: 0;
-    padding: 5vw 1vw 5vw 1vw;
-    overflow: hidden;
-    background-color: #D3ECDD;
-    position: absolute;
-    top: 0vw;
-    left: 18vw
+.hide {
+    display: none;
 }
 
-a:hover {
-    background-color: #B4D6B8;
+.down {
+    transform: translateX(0);
 }
 
-a {
-    color: white;
-    text-align: center;
-    padding: 1vw 2vw 1vw 2vw;
-    text-decoration: none;
+/********* mobil ***********/
+#menuknap_mobil {
+    font-size: 3.5rem;
+    padding-right: 1vw;
 }
+
+.logo_mobil {
+    height: 15vw;
+    width: 15vw;
+    margin-top: 4vw;
+}
+
+#kurv_mobil {
+    height: 15vw;
+    width: 15vw;
+    margin-top: 4vw;
+}
+
+/******************web*****************/
+.logo_web {
+    height: 10vw;
+    width: 10vw;
+    margin: 4vw;
+}
+
+#kurv_web {
+    height: 10vw;
+    width: 10vw;
+    margin: 4vw;
+}
+
+.nav_web {
+    margin-top: 8vw;
+}
+
+@media only screen and (min-width: 600px) {
+    .nav_mobil {
+        display: none;
+    }
+
+    #menuknap_mobil {
+        display: none;
+    }
+
+    .logo_mobil {
+        display: none;
+    }
+
+    #kurv_mobil {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .nav_web {
+        display: none;
+    }
+
+    .logo_web {
+        display: none;
+    }
+
+    #kurv_web {
+        display: none;
+    }
+}
+
 
 /***home/forside***/
 .zoom {
@@ -85,7 +144,7 @@ a {
 */
     flex-wrap: wrap;
     /*    background-color: violet;*/
-    margin: 7vw 11vw 0vw 11vw;
+    margin: 1vw 11vw 0vw 11vw;
 }
 
 
@@ -299,6 +358,7 @@ footer {
 .forside_hover:hover .overlay {
     opacity: 0.5;
 }
+
 
 /*
 
