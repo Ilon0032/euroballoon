@@ -1002,7 +1002,14 @@ footer {
 
     .images_forside {
         display: flex;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-bottom: 90px;
 
+    }
+
+    .images_forside img {
+        padding: 25px;
     }
 
     .col {
