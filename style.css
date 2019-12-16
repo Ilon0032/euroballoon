@@ -77,6 +77,10 @@ header {
 
 .overlay {
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 
     /*
     top: 0;
@@ -325,7 +329,7 @@ a {
 */
 
 .images_forside {
-    display: flex;
+    /*    display: flex;*/
     /*
     width: 80vw;
     height: 45vw;
@@ -334,14 +338,16 @@ a {
     margin-left: 11vw;
     margin-top: 4vw;
 */
-    flex-wrap: wrap;
+    /*    flex-wrap: wrap;*/
     /*    background-color: violet;*/
-    margin: 1vw 11vw 0vw 11vw;
+    /*    margin: 1vw 11vw 0vw 11vw;*/
 }
 
 
 .images_forside img {
-    object-fit: cover;
+    /*    object-fit: cover;*/
+    position: relative;
+    padding: 25px;
 }
 
 .fill img {
@@ -992,4 +998,16 @@ footer {
     #kurv_web {
         display: block;
     }
+
+
+    .images_forside {
+        display: flex;
+
+    }
+
+    .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
 }
