@@ -28,6 +28,48 @@ img {
     width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************classes*************/
+
+
 .hide {
     display: none;
 }
@@ -36,7 +78,105 @@ img {
     transform: translateX(0);
 }
 
-/********* mobil ***********/
+.overlay {
+    position: absolute;
+
+    /*
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #008CBA;
+*/
+}
+
+.forside_hover:hover .overlay {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********* mobil menu ***********/
 #menuknap_mobil {
     font-size: 3.5rem;
     padding-right: 1vw;
@@ -54,7 +194,42 @@ img {
     margin-top: 4vw;
 }
 
-/******************web*****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************web menu*****************/
 .logo_web {
     height: 10vw;
     width: 10vw;
@@ -71,37 +246,45 @@ img {
     margin-top: 8vw;
 }
 
-@media only screen and (min-width: 600px) {
-    .nav_mobil {
-        display: none;
-    }
 
-    #menuknap_mobil {
-        display: none;
-    }
 
-    .logo_mobil {
-        display: none;
-    }
 
-    #kurv_mobil {
-        display: none;
-    }
-}
 
-@media only screen and (max-width:600px) {
-    .nav_web {
-        display: none;
-    }
 
-    .logo_web {
-        display: none;
-    }
 
-    #kurv_web {
-        display: none;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /***home/forside***/
@@ -217,6 +400,82 @@ img {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***anledninger***/
 #anledninger .sectionwrapper {
     background-color: #D3ECDD;
@@ -227,6 +486,98 @@ img {
     flex-wrap: wrap;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***ballontyper***/
 #ballontyper .sectionwrapper {
@@ -272,6 +623,79 @@ img {
     /* Hide all elements by default */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***galleri***/
 #galleri .sectionwrapper {
     background-color: #D3ECDD;
@@ -283,6 +707,76 @@ img {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***tilbehør***/
 #tilbehoer .sectionwrapper {
     background-color: #D3ECDD;
@@ -293,6 +787,80 @@ img {
     flex-wrap: wrap;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***om os***/
 #om_os .sectionwrapper {
@@ -308,6 +876,79 @@ img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************footer*******************/
+
 footer {
     width: 100%;
     background-color: #B3D6CA;
@@ -315,61 +956,37 @@ footer {
     padding: 10px;
 }
 
+/******************media query*************/
 
 
+@media only screen and (max-width:600px) {
+    .nav_web {
+        display: none;
+    }
 
+    .logo_web {
+        display: none;
+    }
 
-
-
-
-/*
-.sectionwrapper_forside {
-    position: relative;
-    width: 50%;
-}
-*/
-
-
-
-/*
-.forside_hover {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-*/
-
-.overlay {
-    position: absolute;
-
-    /*
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    transition: .5s ease;
-    background-color: #008CBA;
-*/
+    #kurv_web {
+        display: none;
+    }
 }
 
-.forside_hover:hover .overlay {
-    opacity: 0.5;
-}
+@media only screen and (min-width: 600px) {
+    .nav_mobil {
+        display: none;
+    }
 
+    #menuknap_mobil {
+        display: none;
+    }
 
-/*
+    .logo_mobil {
+        display: none;
+    }
 
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+    #kurv_mobil {
+        display: none;
+    }
 }
