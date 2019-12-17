@@ -185,19 +185,20 @@ img {
 /********* mobil menu ***********/
 #menuknap_mobil {
 	font-size: 3.5rem;
-	padding-right: 1vw;
+	padding-left: 2vw;
 }
 
 .logo_mobil {
-	height: 15vw;
-	width: 15vw;
+	height: 12vw;
+	width: 12vw;
 	margin-top: 4vw;
 }
 
 #kurv_mobil {
-	height: 15vw;
-	width: 15vw;
-	margin-top: 4vw;
+	height: 10vw;
+	width: 10vw;
+	margin-top: 6vw;
+	margin-right: 6vw;
 }
 
 
@@ -237,18 +238,19 @@ img {
 
 /******************web menu*****************/
 .logo_web {
-
-	height: 10vw;
-	width: 10vw;
+	height: 8vw;
+	width: 8vw;
 	margin: 4vw;
 	display: none;
 }
 
 #kurv_web {
-	height: 10vw;
-	width: 10vw;
-	margin: 4vw;
+	height: 70px;
+	width: 70px;
+	margin-right: 90px;
+	margin-top: 75px;
 	display: none;
+	background-color: #D3ECDD;
 }
 
 .nav_web {
@@ -1070,8 +1072,10 @@ footer {
 		display: none;
 	}
 
+
 	.nav_web {
 		display: block;
+		flex-wrap: nowrap;
 	}
 
 	.logo_web {
@@ -1099,5 +1103,7 @@ footer {
 		flex-basis: 300px;
 		flex-grow: 1;
 	}
+
+
 
 }
