@@ -24,10 +24,10 @@ header {
 	justify-content: space-between;
 }
 
+
 img {
 	width: 100%;
 }
-
 
 
 
@@ -79,7 +79,13 @@ img {
 }
 
 .overlay {
+
 	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
 
 	/*
     top: 0;
@@ -231,22 +237,31 @@ img {
 
 /******************web menu*****************/
 .logo_web {
+
 	height: 10vw;
 	width: 10vw;
 	margin: 4vw;
+	display: none;
 }
 
 #kurv_web {
 	height: 10vw;
 	width: 10vw;
 	margin: 4vw;
+	display: none;
 }
 
 .nav_web {
 	margin-top: 8vw;
+	display: none;
 }
 
-
+a {
+	padding: 2vw;
+	font-size: 1rem;
+	text-decoration: none;
+	color: #8A8A8A;
+}
 
 
 
@@ -289,13 +304,7 @@ img {
 
 /***home/forside***/
 .zoom {
-	/*    padding: 50px;*/
-	/*    background-color: green;*/
 	transition: transform .2s;
-	/*
-    width: 200px;
-    height: 20;
-*/
 	margin: 0 auto;
 }
 
@@ -306,6 +315,7 @@ img {
 	/* Safari 3-8 */
 	transform: scale(1.1);
 }
+
 
 .sectionwrapper_forside {
 	background-color: #D3ECDD;
@@ -385,8 +395,16 @@ img {
 	/*    background-color: red;*/
 	margin: 1vw;
 	/*    background-size: contain;*/
-
 }
+
+
+.images_forside img {
+	/*    object-fit: cover;*/
+	position: relative;
+	padding: 20px;
+	/*    margin: 20px;*/
+}
+
 
 .image_right {
 	width: 20vw;
@@ -509,7 +527,7 @@ img {
 	.itemlist {
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		/*		flex-direction: row;*/
 	}
 
 	.col {
@@ -988,22 +1006,52 @@ footer {
 	padding: 10px;
 }
 
+
 /******************media query*************/
 
+/*
 
 @media only screen and (max-width:600px) {
-	.nav_web {
-		display: none;
-	}
 
-	.logo_web {
-		display: none;
-	}
+/*
+    #forside {
+        display: flex;
+        flex-direction: column;
 
-	#kurv_web {
-		display: none;
-	}
+    }
+
+    .images_forside {
+        flex-wrap: wrap;
+
+
+    }
+*/
+
+/*
+    .image_left {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-basis: 50px;
+    }
+
+    .image_right {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-basis: 50px;
+    }
+*/
+/*}*/
+/*
+@media only screen and (max-width 1238px) {
+    a {
+        padding: 10px;
+        font-size: 0.6rem;
+        text-decoration: none;
+        color: #8A8A8A;
+    }
+
 }
+*/
 
 @media only screen and (min-width: 600px) {
 	.nav_mobil {
@@ -1021,4 +1069,35 @@ footer {
 	#kurv_mobil {
 		display: none;
 	}
+
+	.nav_web {
+		display: block;
+	}
+
+	.logo_web {
+		display: block;
+	}
+
+	#kurv_web {
+		display: block;
+	}
+
+
+	.images_forside {
+		display: flex;
+		padding-left: 90px;
+		padding-right: 90px;
+		padding-bottom: 90px;
+
+	}
+
+	.images_forside img {
+		padding: 25px;
+	}
+
+	.col {
+		flex-basis: 300px;
+		flex-grow: 1;
+	}
+
 }
