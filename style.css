@@ -239,10 +239,12 @@ header {
 }
 
 #kurv_web {
-    height: 10vw;
-    width: 10vw;
-    margin: 4vw;
+    height: 80px;
+    width: 80px;
+    margin-right: 70px;
+    margin-top: 65px;
     display: none;
+    background-color: #D3ECDD;
 }
 
 .nav_web {
@@ -950,6 +952,7 @@ footer {
 
     .nav_web {
         display: block;
+        flex-wrap: nowrap;
     }
 
     .logo_web {
@@ -977,5 +980,7 @@ footer {
         flex-basis: 300px;
         flex-grow: 1;
     }
+
+
 
 }
