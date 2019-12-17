@@ -1,31 +1,37 @@
 /*Generelle indstillinger*/
 * {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    background-color: #D3ECDD;
+	margin: 0;
+	background-color: #D3ECDD;
 }
 
 
 img {
-    width: 100%;
+	width: 100%;
 }
 
 /***Menu***/
 
 header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
+<<<<<<< HEAD
 p {
     color: #8A8A8A;
+=======
+
+img {
+	width: 100%;
+>>>>>>> origin/master
 }
 
 
@@ -70,21 +76,23 @@ p {
 
 
 .hide {
-    display: none;
+	display: none;
 }
 
 .down {
-    transform: translateX(0);
+	transform: translateX(0);
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
 
-    /*
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+
+	/*
     top: 0;
     bottom: 0;
     left: 0;
@@ -98,7 +106,7 @@ p {
 }
 
 .forside_hover:hover .overlay {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 
@@ -181,21 +189,21 @@ p {
 
 /********* mobil menu ***********/
 #menuknap_mobil {
-    font-size: 3.5rem;
-    padding-left: 2vw;
+	font-size: 3.5rem;
+	padding-left: 2vw;
 }
 
 .logo_mobil {
-    height: 12vw;
-    width: 12vw;
-    margin-top: 4vw;
+	height: 12vw;
+	width: 12vw;
+	margin-top: 4vw;
 }
 
 #kurv_mobil {
-    height: 10vw;
-    width: 10vw;
-    margin-top: 6vw;
-    margin-right: 6vw;
+	height: 10vw;
+	width: 10vw;
+	margin-top: 6vw;
+	margin-right: 6vw;
 }
 
 
@@ -235,31 +243,31 @@ p {
 
 /******************web menu*****************/
 .logo_web {
-    height: 8vw;
-    width: 8vw;
-    margin: 4vw;
-    display: none;
+	height: 8vw;
+	width: 8vw;
+	margin: 4vw;
+	display: none;
 }
 
 #kurv_web {
-    height: 70px;
-    width: 70px;
-    margin-right: 90px;
-    margin-top: 75px;
-    display: none;
-    background-color: #D3ECDD;
+	height: 70px;
+	width: 70px;
+	margin-right: 90px;
+	margin-top: 75px;
+	display: none;
+	background-color: #D3ECDD;
 }
 
 .nav_web {
-    margin-top: 8vw;
-    display: none;
+	margin-top: 8vw;
+	display: none;
 }
 
 a {
-    padding: 2vw;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #8A8A8A;
+	padding: 2vw;
+	font-size: 1rem;
+	text-decoration: none;
+	color: #8A8A8A;
 }
 
 
@@ -303,32 +311,118 @@ a {
 
 /***home/forside***/
 .zoom {
-
-    transition: transform .2s;
-
-    margin: 0 auto;
+	transition: transform .2s;
+	margin: 0 auto;
 }
 
 .zoom:hover {
-    -ms-transform: scale(1);
-    /* IE 9 */
-    -webkit-transform: scale(1.5);
-    /* Safari 3-8 */
-    transform: scale(1.1);
+	-ms-transform: scale(1);
+	/* IE 9 */
+	-webkit-transform: scale(1.5);
+	/* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+
+.sectionwrapper_forside {
+	background-color: #D3ECDD;
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.images_forside {
+	display: flex;
+	width: 80vw;
+	height: 45vw;
+	/*
+    margin-left: 11vw;
+    margin-top: 4vw;
+*/
+	flex-wrap: wrap;
+	/*    background-color: violet;*/
+	margin: 1vw 11vw 0vw 11vw;
 }
 
 
 
+.fill img {
+	object-fit: cover;
+	height: 40vw;
+	width: 20vw;
+}
+
+.small img {
+	object-fit: cover;
+	height: 20vw;
+	width: 20vw;
+}
+
+/*
+#forside_midt img {
+    object-fit: none;
+    height: 20vw;
+    width: 20vw;
+}
+*/
+.image_left {
+	width: 20vw;
+	height: 40vw;
+	flex-basis: auto;
+	flex-direction: column;
+
+	/*    background-color: red;*/
+	margin-left: 7vw;
+	margin-top: 2vw;
+
+
+}
+
+.image_bottom {
+	width: 20vw;
+	height: 20vw;
+	flex-basis: auto;
+	flex-direction: column;
+
+	/*    background-color: red;*/
+	margin: 1vw;
+	/*    background-size: contain;*/
+
+}
+
+.image_top {
+	width: 20vw;
+	height: 20vw;
+	flex-basis: auto;
+	flex-direction: column;
+
+	/*    background-color: red;*/
+	margin: 1vw;
+	/*    background-size: contain;*/
+}
 
 
 .images_forside img {
-    /*    object-fit: cover;*/
-    position: relative;
-    padding: 20px;
-    /*    margin: 20px;*/
+	/*    object-fit: cover;*/
+	position: relative;
+	padding: 20px;
+	/*    margin: 20px;*/
 }
 
 
+.image_right {
+	width: 20vw;
+	height: 40vw;
+	flex-basis: auto;
+	flex-direction: column;
+
+	/*    background-color: red;*/
+	margin-right: 7vw;
+	margin-top: 2vw;
+}
 
 
 
@@ -408,15 +502,47 @@ a {
 
 
 /***anledninger***/
-#anledninger .sectionwrapper {
-    background-color: #D3ECDD;
-    width: 100vw;
-    height: 100vw;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-
+/*#anledninger .itemlist {
+	background-color: #D3ECDD;
+	width: 100vw;
+	/*height: 100vw;*/
+/*margin: 0;*/
+/*display: flex;
+	flex-wrap: wrap;
 }
+*/
+
+.itemlist {
+	margin-left: 80px;
+	margin-right: 10px;
+	align-items: center;
+}
+
+/*.item_1 {
+	flex-grow: 1;
+	flex-basis: 500px;
+}*/
+
+.bryl_image {
+	object-fit: contain;
+	height: 60vw;
+	width: 60vw;
+	background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+	.itemlist {
+		display: flex;
+		flex-wrap: wrap;
+		/*		flex-direction: row;*/
+	}
+
+	.col {
+		flex-basis: 300px;
+		flex-grow: 3;
+	}
+}
+
 
 
 
@@ -512,46 +638,46 @@ a {
 
 /***ballontyper***/
 #ballontyper .sectionwrapper {
-    background-color: #D3ECDD;
-    width: 100vw;
-    height: 100vw;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
+	background-color: #D3ECDD;
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .row,
 .row > .column {
-    padding: 8px;
+	padding: 8px;
 }
 
 #ballontyper .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .balloon {
-    height: 50vw;
-    width: 20vw;
-    flex-basis: auto;
-    flex-direction: column;
-    /*
+	height: 50vw;
+	width: 20vw;
+	flex-basis: auto;
+	flex-direction: column;
+	/*
     top: 10vw;
     left: 10vw;
 */
-    padding: 5vw;
+	padding: 5vw;
 }
 
 img {
-    object-fit: cover;
+	object-fit: cover;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 25%;
-    display: flex;
-    /* Hide all elements by default */
+	float: left;
+	width: 25%;
+	display: flex;
+	/* Hide all elements by default */
 }
 
 
@@ -629,12 +755,12 @@ img {
 
 /***galleri***/
 #galleri .sectionwrapper {
-    background-color: #D3ECDD;
-    width: 100vw;
-    height: 100vw;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
+	background-color: #D3ECDD;
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
@@ -710,12 +836,12 @@ img {
 
 /***tilbehør***/
 #tilbehoer .sectionwrapper {
-    background-color: #D3ECDD;
-    width: 100vw;
-    height: 100vw;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
+	background-color: #D3ECDD;
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
@@ -795,12 +921,12 @@ img {
 
 /***om os***/
 #om_os .sectionwrapper {
-    background-color: #D3ECDD;
-    width: 100vw;
-    height: 100vw;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
+	background-color: #D3ECDD;
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
@@ -881,10 +1007,10 @@ img {
 /******************footer*******************/
 
 footer {
-    width: 100%;
-    background-color: #B3D6CA;
-    text-align: left;
-    padding: 10px;
+	width: 100%;
+	background-color: #B3D6CA;
+	text-align: left;
+	padding: 10px;
 }
 
 
@@ -893,8 +1019,6 @@ footer {
 /*
 
 @media only screen and (max-width:600px) {
-
-*/
 
 /*
     #forside {
@@ -937,52 +1061,53 @@ footer {
 */
 
 @media only screen and (min-width: 600px) {
-    .nav_mobil {
-        display: none;
-    }
+	.nav_mobil {
+		display: none;
+	}
 
-    #menuknap_mobil {
-        display: none;
-    }
+	#menuknap_mobil {
+		display: none;
+	}
 
-    .logo_mobil {
-        display: none;
-    }
+	.logo_mobil {
+		display: none;
+	}
 
-    #kurv_mobil {
-        display: none;
-    }
-
-    .nav_web {
-        display: block;
-        flex-wrap: nowrap;
-    }
-
-    .logo_web {
-        display: block;
-    }
-
-    #kurv_web {
-        display: block;
-    }
+	#kurv_mobil {
+		display: none;
+	}
 
 
-    .images_forside {
-        display: flex;
-        padding-left: 90px;
-        padding-right: 90px;
-        padding-bottom: 90px;
+	.nav_web {
+		display: block;
+		flex-wrap: nowrap;
+	}
 
-    }
+	.logo_web {
+		display: block;
+	}
 
-    .images_forside img {
-        padding: 25px;
-    }
+	#kurv_web {
+		display: block;
+	}
 
-    .col {
-        flex-basis: 300px;
-        flex-grow: 1;
-    }
+
+	.images_forside {
+		display: flex;
+		padding-left: 90px;
+		padding-right: 90px;
+		padding-bottom: 90px;
+
+	}
+
+	.images_forside img {
+		padding: 25px;
+	}
+
+	.col {
+		flex-basis: 300px;
+		flex-grow: 1;
+	}
 
 
 
