@@ -46,9 +46,19 @@ h2 {
     color: #8A8A8A;
 }
 
+#balloon_container h1 {
+    font-family: 'Neucha', cursive;
+    margin: 0.1vw;
+    font-size: 1.8rem;
+    color: #8A8A8A;
 
+}
 
-
+#balloon_container p {
+    color: #8A8A8A;
+    font-family: 'Neucha', cursive;
+    font-size: 1.5rem;
+}
 
 
 
@@ -121,6 +131,7 @@ h2 {
 
 .forside_hover:hover .overlay {
     opacity: 0.5;
+    transition: .2s;
 }
 
 .text_forside {
@@ -129,7 +140,8 @@ h2 {
     font-size: 3rem;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
+
 
     /*
     -webkit-transform: translate(-50%, -50%);
@@ -351,6 +363,7 @@ a {
     -webkit-transform: scale(1.5);
     /* Safari 3-8 */
     transform: scale(1.1);
+    transition: .2s;
 }
 
 
@@ -566,7 +579,97 @@ a {
 
 
 
-/***ballontyper***/
+/***ballontyper/produktview***/
+
+
+#balloon_container {
+    margin: 4%;
+
+}
+
+
+.z_picture {
+    flex-grow: 1;
+    flex-basis: 350px;
+    padding: 2vw;
+}
+
+.ballon_typer_size {
+    object-fit: cover;
+
+}
+
+.z_size {
+
+    padding: 2px;
+
+}
+
+.z_tekst_flex {}
+
+.z_tekst1 {}
+
+.z_tekst2 {}
+
+.z_tekst_size {}
+
+#antal_boks {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 5px;
+
+}
+
+.basket_boks_size {
+    height: 30vw;
+    width: 25vw;
+    padding: 5px;
+}
+
+#ballontyper {
+    margin: 55px
+}
+
+
+
+.sectionwrapper_se_mere {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionwrapper_se_mere img {
+    width: 50%;
+    padding: 1vw;
+}
+
+
+.side {
+    padding: 6vw;
+}
+
+.se_mere_size {
+
+    margin: 6px;
+    padding: 0px;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    #balloon_container {
+        display: flex;
+
+    }
+
+    .sectionwrapper_se_mere img {
+        width: 25%;
+        padding: 1vw;
+    }
+
+
+}
 
 
 
